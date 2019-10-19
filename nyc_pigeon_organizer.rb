@@ -9,7 +9,7 @@ def nyc_pigeon_organizer(data)
      if pigeon_list[name].key?(prop_name)==false
        pigeon_list[name].store(prop_name,[])
      end
-     pigeon_list[]
+     pigeon_list[name][prop_name].push(spec_value)
     }
   }
  }
